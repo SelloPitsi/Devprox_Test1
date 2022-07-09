@@ -17,6 +17,7 @@ class Test_c extends CI_Controller {
   		
   		$data['action'] = "Test_c/saveUser";
   		$data['message'] = '';
+  		$data['reset'] = FALSE;
 		$this->load->view('form_v',$data);
 	}
 
