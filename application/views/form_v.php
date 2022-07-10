@@ -50,7 +50,7 @@
 		  </div>
 		  <div class="form-row justify-content-center" >
 		    <div class="form-group col-md-6" >
-		      <label for="inputEmail4">Id No</label>
+		      <label for="inputEmail4">ID No</label>
 		      <input type="text" class="form-control" id="id_no" name="id_no" value="<?php echo  ($reset) ? "" :  set_value('id_no'); ?>">
 		      
 		    </div>
